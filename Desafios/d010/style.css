@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url('recursos/fontes/idroid.otf') format('opentype');
+}
+
+*{
+    margin:0px;
+}
+
+body{
+    background-color: #84E1AD;
+    margin:0px;
+}
+
+p{
+    text-indent: 20px;
+}
+header{
+    background-image: linear-gradient(to bottom, #33b46b,  #16502f);
+
+    padding-top:10px;
+    padding-bottom:15px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+    margin:0px 0px 20px 0px;
+    padding-top: 10px;
+}
+
+header > p{
+    margin: 0px 0px 20px 0px
+}
+
+nav{
+    text-align: left; 
+    margin: 30px 0px 0px 0px;
+}
+
+nav > a{
+    color: white;
+    text-decoration: none;
+
+    padding:10px;
+
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+nav > a:hover{
+    background-color: #288d54;
+}
+
+section{
+    background-color: white;
+    padding: 10px 0px;
+    margin:0px 10%;
+}
+
+article{
+    padding:20px;
+}
+
+article > h1{
+    font-family: idroid, Helvetica, sans-serif;
+    color: #2C6948;
+    font-size: 1.3em;
+    margin: 10px auto;
+}
+
+article > h2{
+    background-image: linear-gradient(to right, #84e1ac7e, rgba(255, 255, 255, 0));
+    font-family: idroid, Helvetica, sans-serif;
+    color: #2C6948;
+    font-size: 1.1em;
+    margin: 10px 0px;
+}
+
+article > p{
+    text-align: justify;
+    margin:5px;
+}
+
+article > picture > img{
+    width: 100%;
+    margin: auto;
+}
+
+article > img{
+    width: 50%;
+    margin: auto 23%;
+
+}
+
+section#video{
+    background-color: #16502f;
+    padding: 20px 10px;
+    margin:0% 10%;
+}
+
+section#video > iframe{
+    width: 100%;
+    margin: auto;
+
+}
+
+section#special{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+section#special > p{
+    margin: 10px 40px 0px 40px;
+}
+
+
+div#extra{
+    background-color: #C5EBD6;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    margin:0px 5%;
+
+}
+
+div#extra > h3{
+    background-color: #2FA866;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; 
+    padding: 10px;
+}
+
+div#extra > p{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+div#list{
+
+    width: 100%px;
+    margin: 10%;
+}
+
+div#left{
+    display: inline-block;
+
+    width: 40%;
+    padding: 10px 0px;
+    margin-right: 19%;
+}
+
+div#right{
+    display: inline-block;
+
+    width: 40%;
+    padding: 10px 0px;
+}
+
+footer{
+        background-color: #16502F;
+        padding: 5px;
+        color: white;
+        text-align: center;
+
+        margin-top:10px ;
+}
